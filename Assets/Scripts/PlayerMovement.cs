@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
 
+    public Animator animator;
 
     public float speed = 12f;
     public float gravity = -9.81f;
@@ -48,11 +49,18 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+        if(x != 0 || z != 0)
+        {
+            animator.SetBool("walking", true);
+        }else
+        {
+            animator.SetBool("walking", false);
+        }
     }
 
     private void Start()
     {
         manager = FindObjectOfType<TaskManager>();
-
     }
 }

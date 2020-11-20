@@ -16,6 +16,8 @@ public class PlayerManager : NetworkBehaviour
     public Material bodyMat;
     public Material backMat;
 
+    public Light flashLight;
+    public sabotageManager sabotage;
 
     [Header("networking")]
     public string remotePlayerLayerName;
@@ -25,6 +27,8 @@ public class PlayerManager : NetworkBehaviour
 
     private void Start()
     {
+        sabotage = FindObjectOfType<sabotageManager>();
+
         if(!isLocalPlayer)
         {
             for (int i = 0; i < stufftoDisable.Length; i++)
@@ -32,6 +36,9 @@ public class PlayerManager : NetworkBehaviour
                 stufftoDisable[i].enabled = false;
             }
             body.layer = LayerMask.NameToLayer(remotePlayerLayerName);
+        }else
+        {
+            gameObject.tag = "localplayer";
         }
 
 
@@ -40,6 +47,11 @@ public class PlayerManager : NetworkBehaviour
     {
         bodyMat.mainTexture = colors[color];
         backMat.mainTexture = backbagColors[color];
+
+        if(sabotage.lightsSabotaged)
+        {
+            flashLight.intensity = 0.1f;
+        }
     }
 
 }

@@ -1,18 +1,37 @@
-﻿using System.Collections;
+﻿using Mirror;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class sabotageManager : MonoBehaviour
+public class sabotageManager : NetworkBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SyncVar] public bool lightsSabotaged;
+    public float intesity = 100f;
+    public float sabotagedIntensity = 0f;
+
+
+    public Light[] lights;
+
+    
+    public void sabotageLights()
     {
+
+            
+
+        for (int i = 0; i < lights.Length; i++)
+        {
+            lights[i].enabled = false;
+        }
+        
+        lightsSabotaged = true;
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            sabotageLights();
+        }
     }
 }
