@@ -15,6 +15,8 @@ public class Icons : MonoBehaviour
 
     public void setUSEActive(bool value)
     {
+        
+
         if (value)
             use.color = inUse;
         else

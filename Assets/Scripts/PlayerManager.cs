@@ -52,6 +52,18 @@ public class PlayerManager : NetworkBehaviour
         {
             flashLight.intensity = 0.1f;
         }
+
+        if(Input.GetKeyDown(KeyCode.K) && isImpostor)
+        {
+            sabotageLigths();
+        }
+    }
+    [Client]
+    public void sabotageLigths()
+    {
+        var sabo = FindObjectOfType<sabotageManager>();
+
+        sabo.CMDsabotageLights();
     }
 
 }

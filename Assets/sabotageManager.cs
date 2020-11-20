@@ -12,12 +12,9 @@ public class sabotageManager : NetworkBehaviour
 
     public Light[] lights;
 
-    
-    public void sabotageLights()
-    {
-
-            
-
+    [Command(ignoreAuthority = true)]
+    public void CMDsabotageLights()
+    {           
         for (int i = 0; i < lights.Length; i++)
         {
             lights[i].enabled = false;
@@ -29,9 +26,6 @@ public class sabotageManager : NetworkBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.K))
-        {
-            sabotageLights();
-        }
+        
     }
 }

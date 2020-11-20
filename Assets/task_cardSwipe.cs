@@ -9,7 +9,6 @@ public class task_cardSwipe : MonoBehaviour
     public TaskManager manager;
     public GameObject panel;
 
-    bool inTrigger;
 
     bool t = true;
     private void Update()
@@ -22,20 +21,17 @@ public class task_cardSwipe : MonoBehaviour
             manager.taskscompleted++;
             slider.value = 0;
         }
-        if(inTrigger && Input.GetKeyDown(KeyCode.E) && manager.hasCardSwipe)
-        {
-            panel.SetActive(true);
-        }
+
 
 
     }
+
 
     public void OpenTask()
     {
-        manager.isIntask = true;
         panel.SetActive(true);
+        manager.isIntask = true;
     }
-
 
 
     
