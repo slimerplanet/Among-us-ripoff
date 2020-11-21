@@ -10,12 +10,12 @@ public class vent_system : MonoBehaviour
 
     public void enterVent(GameObject player)
     {
-<<<<<<< Updated upstream
+
         player.GetComponent<PlayerManager>().body.SetActive(false);
 
 
-=======
+
         player.SetActive(false);
->>>>>>> Stashed changes
+
     }
 }
