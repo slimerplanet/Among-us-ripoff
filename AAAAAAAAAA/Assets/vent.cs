@@ -9,6 +9,8 @@ public class vent : MonoBehaviour
 
     bool inTrigger;
 
+    
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("localplayer"))

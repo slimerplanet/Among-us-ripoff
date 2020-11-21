@@ -17616,6 +17616,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1204776257}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -17834,6 +17835,46 @@ MonoBehaviour:
   - a: 11
     b: 10
   m_SelectedVertices: 08000000090000000a0000000b000000
+=======
+  m_GameObject: {fileID: 1198223546}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 40.135464, y: 6.417889, z: 80.46867}
+  m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
+  m_Children: []
+  m_Father: {fileID: 1926226953}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1203388632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1203388633}
+  m_Layer: 11
+  m_Name: exit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1203388633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203388632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -730.9, y: 66.4, z: -509.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1340743160}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 --- !u!1 &1206024623
 GameObject:
   m_ObjectHideFlags: 0
@@ -20414,7 +20455,11 @@ Transform:
   m_LocalPosition: {x: 29.50951, y: 2.636107, z: 29.098736}
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children:
+<<<<<<< Updated upstream
   - {fileID: 674791908}
+=======
+  - {fileID: 1203388633}
+>>>>>>> Stashed changes
   m_Father: {fileID: 555696348}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20430,8 +20475,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f48b6a38a988cf4fad724e9092cf4df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   exit: {fileID: 674791908}
   sys: {fileID: 555696349}
+=======
+  exit: {fileID: 0}
+  sys: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!23 &1340743162
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20493,8 +20543,13 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Size: {x: 35.193104, y: 42.867855, z: 33.82317}
   m_Center: {x: -730.18274, y: 49.2453, z: -508.29346}
+=======
+  m_Size: {x: 34.612125, y: 49.298683, z: 38.33222}
+  m_Center: {x: -730.706, y: 52.46067, z: -508.206}
+>>>>>>> Stashed changes
 --- !u!1 &1352001338
 GameObject:
   m_ObjectHideFlags: 0
