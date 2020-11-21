@@ -8,8 +8,10 @@ public class vent_system : MonoBehaviour
     public vent[] vents;
     public int curVent;
 
-    public void enterVent()
+    public void enterVent(GameObject player)
     {
-        
+        player.GetComponent<PlayerManager>().body.SetActive(false);
+
+
     }
 }

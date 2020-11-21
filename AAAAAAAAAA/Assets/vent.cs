@@ -29,7 +29,8 @@ public class vent : MonoBehaviour
     {
         if(inTrigger && GameObject.FindGameObjectWithTag("localplayer").GetComponent<PlayerManager>().isImpostor && Input.GetKeyDown(KeyCode.E))
         {
-            sys.enterVent();
+            var o = GameObject.FindGameObjectWithTag("localplayer");
+            sys.enterVent(o);
         }
     }
 
