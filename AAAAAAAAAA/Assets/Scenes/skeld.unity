@@ -8635,36 +8635,6 @@ Transform:
   m_Father: {fileID: 980685795}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!1 &674791907
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 674791908}
-  m_Layer: 11
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &674791908
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 674791907}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -732.1, y: 52, z: -510}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1340743160}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &675066273
 GameObject:
   m_ObjectHideFlags: 0
@@ -14282,7 +14252,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074807141}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -18288,7 +18258,6 @@ GameObject:
   - component: {fileID: 1340743163}
   - component: {fileID: 1340743162}
   - component: {fileID: 1340743161}
-  - component: {fileID: 1340743164}
   m_Layer: 11
   m_Name: vent_elec
   m_TagString: Untagged
@@ -18306,12 +18275,16 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 29.50951, y: 2.636107, z: 29.098736}
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
+<<<<<<< HEAD
   m_Children:
 <<<<<<< Updated upstream
   - {fileID: 674791908}
 =======
   - {fileID: 1203388633}
 >>>>>>> Stashed changes
+=======
+  m_Children: []
+>>>>>>> parent of 353174d... vehnt
   m_Father: {fileID: 555696348}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18327,6 +18300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f48b6a38a988cf4fad724e9092cf4df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   exit: {fileID: 674791908}
   sys: {fileID: 555696349}
@@ -18334,6 +18308,10 @@ MonoBehaviour:
   exit: {fileID: 0}
   sys: {fileID: 0}
 >>>>>>> Stashed changes
+=======
+  exit: {fileID: 0}
+  sys: {fileID: 0}
+>>>>>>> parent of 353174d... vehnt
 --- !u!23 &1340743162
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18384,6 +18362,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340743159}
   m_Mesh: {fileID: -2517735737294292958, guid: bca3c883de9690d4ca5a9cddeb44967c, type: 3}
+<<<<<<< HEAD
 --- !u!65 &1340743164
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18402,6 +18381,8 @@ BoxCollider:
   m_Size: {x: 34.612125, y: 49.298683, z: 38.33222}
   m_Center: {x: -730.706, y: 52.46067, z: -508.206}
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 353174d... vehnt
 --- !u!1 &1352001338
 GameObject:
   m_ObjectHideFlags: 0
