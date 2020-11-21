@@ -1,17 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class vent_system : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public vent[] vents;
+    public int curVent;
 
-    // Update is called once per frame
-    void Update()
+    public void enterVent()
     {
         
     }
