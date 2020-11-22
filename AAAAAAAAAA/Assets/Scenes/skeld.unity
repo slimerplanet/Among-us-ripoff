@@ -644,9 +644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4655ddc653574bc45b495a7794d32df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manager: {fileID: 582498183}
-  task: {fileID: 369457867}
-  icons: {fileID: 1352001344}
 --- !u!64 &69798137
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4104,20 +4101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 4
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
-  m_ReverseArrangement: 0
 --- !u!43 &317300146
 Mesh:
   m_ObjectHideFlags: 0
@@ -7423,7 +7406,7 @@ MonoBehaviour:
   serverTickRate: 30
   offlineScene: 
   onlineScene: 
-  transport: {fileID: 0}
+  transport: {fileID: 597827690}
   networkAddress: localhost
   maxConnections: 4
   disconnectInactiveConnections: 0
@@ -8726,20 +8709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 4
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
-  m_ReverseArrangement: 0
 --- !u!1 &763463582
 GameObject:
   m_ObjectHideFlags: 0

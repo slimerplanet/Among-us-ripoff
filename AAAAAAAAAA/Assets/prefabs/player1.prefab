@@ -295,7 +295,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -8618185471609908263, guid: 4661e82ae62366f4eb1c04b38728378e, type: 3}
+  m_Mesh: {fileID: -8869733012101434431, guid: aa01c53982fbda24db01c47ba7937d6c, type: 3}
   m_Bones:
   - {fileID: 6662989004504916644}
   - {fileID: 6662989004196257693}
@@ -420,7 +420,6 @@ GameObject:
   - component: {fileID: 2052881685787462399}
   - component: {fileID: 3616670389119097629}
   - component: {fileID: 3167732931214244573}
-  - component: {fileID: 4524090364424705489}
   m_Layer: 0
   m_Name: player1
   m_TagString: Untagged
@@ -594,22 +593,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4524090364424705489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6662989005472223376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
-  clientAuthority: 1
-  animator: {fileID: 3167732931214244573}
 --- !u!1 &6662989005645326138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,7 +994,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 0
   m_Range: 4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
