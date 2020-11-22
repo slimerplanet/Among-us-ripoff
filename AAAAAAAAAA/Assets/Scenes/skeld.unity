@@ -16303,8 +16303,6 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< Updated upstream
   m_GameObject: {fileID: 1204776257}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -18275,20 +18273,19 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 29.50951, y: 2.636107, z: 29.098736}
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   m_Children:
-<<<<<<< Updated upstream
+
   - {fileID: 674791908}
 =======
   - {fileID: 1203388633}
->>>>>>> Stashed changes
+
 =======
   m_Children: []
->>>>>>> parent of 353174d... vehnt
+	parent of 353174d... vehnt
 =======
   m_Children: []
->>>>>>> parent of 353174d... vehnt
+ parent of 353174d... vehnt
   m_Father: {fileID: 555696348}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18304,9 +18301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f48b6a38a988cf4fad724e9092cf4df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
+
   exit: {fileID: 674791908}
   sys: {fileID: 555696349}
 =======
@@ -18371,8 +18366,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340743159}
   m_Mesh: {fileID: -2517735737294292958, guid: bca3c883de9690d4ca5a9cddeb44967c, type: 3}
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 --- !u!65 &1340743164
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18384,7 +18378,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-<<<<<<< Updated upstream
+
   m_Size: {x: 35.193104, y: 42.867855, z: 33.82317}
   m_Center: {x: -730.18274, y: 49.2453, z: -508.29346}
 =======
